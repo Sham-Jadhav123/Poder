@@ -1,0 +1,1183 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Presential Module",
+    "line": 1,
+    "id": "presential-module",
+    "tags": [],
+    "uri": "P3_02_seguridadUsuariosModule.feature",
+    "elements": [
+      {
+        "id": "presential-module;as-a-user-i-validate-all-cards",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "As a user I validate all cards",
+        "tags": [
+          {
+            "name": "@verify_seguridad_card",
+            "line": 12
+          },
+          {
+            "name": "@regression",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the URL",
+            "result": {
+              "status": "passed",
+              "duration": 8551000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter Username",
+            "result": {
+              "status": "passed",
+              "duration": 5535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Tap on Next button",
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter password of user",
+            "result": {
+              "status": "passed",
+              "duration": 1388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Tap on SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 655000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User select Yes Option",
+            "result": {
+              "status": "passed",
+              "duration": 38037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I am on home page of poder website",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click on module Seguridad",
+            "result": {
+              "status": "passed",
+              "duration": 1607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I validate all five card",
+            "result": {
+              "status": "passed",
+              "duration": 6225000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "presential-module;as-a-user-i-click-on-usuario-card",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "As a user I click on Usuario card",
+        "tags": [
+          {
+            "name": "@click_on_ususrio_card_seguridad",
+            "line": 18
+          },
+          {
+            "name": "@regression",
+            "line": 18
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the URL",
+            "result": {
+              "status": "passed",
+              "duration": 8351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter Username",
+            "result": {
+              "status": "passed",
+              "duration": 5503000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Tap on Next button",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter password of user",
+            "result": {
+              "status": "passed",
+              "duration": 1361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Tap on SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 652000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User select Yes Option",
+            "result": {
+              "status": "passed",
+              "duration": 37248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I am on home page of poder website",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click on module Seguridad",
+            "result": {
+              "status": "passed",
+              "duration": 1805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I validate all five card",
+            "result": {
+              "status": "passed",
+              "duration": 5366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I click on Usuario card",
+            "result": {
+              "status": "passed",
+              "duration": 2250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I validate users list",
+            "result": {
+              "status": "passed",
+              "duration": 2072000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "presential-module;as-a-user-i-search-user-and-validate-asignar-permisos-tab",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "As a user I search user and validate Asignar Permisos tab",
+        "tags": [
+          {
+            "name": "@validate_asigner_permisos_tab",
+            "line": 26
+          },
+          {
+            "name": "@regression",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the URL",
+            "result": {
+              "status": "passed",
+              "duration": 10070000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter Username",
+            "result": {
+              "status": "passed",
+              "duration": 5491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Tap on Next button",
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter password of user",
+            "result": {
+              "status": "passed",
+              "duration": 1316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Tap on SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User select Yes Option",
+            "result": {
+              "status": "passed",
+              "duration": 37858000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I am on home page of poder website",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I click on module Seguridad",
+            "result": {
+              "status": "passed",
+              "duration": 1592000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I validate all five card",
+            "result": {
+              "status": "passed",
+              "duration": 10311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I click on Usuario card",
+            "result": {
+              "status": "passed",
+              "duration": 2253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I search user by email",
+            "result": {
+              "status": "passed",
+              "duration": 2919000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I click on edit option",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I validate Asignar Permisos Tab",
+            "result": {
+              "status": "passed",
+              "duration": 15863000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "presential-module;as-a-user-i-search-user-and-validate-permisos-actuales-tab",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "As a user I search user and validate Permisos Actuales tab",
+        "tags": [
+          {
+            "name": "@validate_permisos_actual_tab",
+            "line": 36
+          },
+          {
+            "name": "@regression",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the URL",
+            "result": {
+              "status": "passed",
+              "duration": 9086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter Username",
+            "result": {
+              "status": "passed",
+              "duration": 5493000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Tap on Next button",
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter password of user",
+            "result": {
+              "status": "passed",
+              "duration": 1279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Tap on SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User select Yes Option",
+            "result": {
+              "status": "passed",
+              "duration": 37644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I am on home page of poder website",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "I click on module Seguridad",
+            "result": {
+              "status": "passed",
+              "duration": 1740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I validate all five card",
+            "result": {
+              "status": "passed",
+              "duration": 5395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I click on Usuario card",
+            "result": {
+              "status": "passed",
+              "duration": 2245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I search user by email",
+            "result": {
+              "status": "passed",
+              "duration": 2856000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I click on edit option",
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I validate Permisos Actuales Tab",
+            "result": {
+              "status": "passed",
+              "duration": 9438000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "presential-module;as-a-user-i-search-user-and-add-profile-and-click-on-guardar",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "As a user I search user and add profile and click on guardar",
+        "tags": [
+          {
+            "name": "@add_profile_to_user",
+            "line": 46
+          },
+          {
+            "name": "@regression",
+            "line": 46
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the URL",
+            "result": {
+              "status": "passed",
+              "duration": 9080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter Username",
+            "result": {
+              "status": "passed",
+              "duration": 5487000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Tap on Next button",
+            "result": {
+              "status": "passed",
+              "duration": 125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter password of user",
+            "result": {
+              "status": "passed",
+              "duration": 1392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Tap on SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User select Yes Option",
+            "result": {
+              "status": "passed",
+              "duration": 39583000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "I am on home page of poder website",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "I click on module Seguridad",
+            "result": {
+              "status": "passed",
+              "duration": 1763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I validate all five card",
+            "result": {
+              "status": "passed",
+              "duration": 5390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I click on Usuario card",
+            "result": {
+              "status": "passed",
+              "duration": 2256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I search user by email",
+            "result": {
+              "status": "passed",
+              "duration": 2982000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "I click on edit option",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I select mandatory fields usuarios",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 20000ms: Expected to find content: 'CAMARA PENAL DEL JUZGADO DE PRIMERA INSTANCIA DE DUARTE' within the selector: '.dropdown-item.active' but never did.\n    at SeguridadModulePage.selectTribunal (cypress/e2e/Pages/seguridadModulePage.js:77:11)\n    at Context.eval (cypress/e2e/Steps/seguridadUsuariosModuleSteps.js:63:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n    at getRet (http://localhost:58679/__cypress/runner/cypress_runner.js:118322:20)\n    at tryCatcher (http://localhost:58679/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:58679/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:58679/__cypress/runner/cypress_runner.js:118333:66)\n    at Context.then (http://localhost:58679/__cypress/runner/cypress_runner.js:118584:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "I click on Guardar",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "presential-module;as-a-user-i-search-user-and-goto-permisos-actuales-tab-and-click-on-edit-permisos",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "As a user I search user and goto Permisos Actuales tab and click on edit Permisos",
+        "tags": [
+          {
+            "name": "@edit_permisos_from_permisos_actual_tab",
+            "line": 57
+          },
+          {
+            "name": "@regression",
+            "line": 57
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the URL",
+            "result": {
+              "status": "passed",
+              "duration": 9006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter Username",
+            "result": {
+              "status": "passed",
+              "duration": 5587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Tap on Next button",
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter password of user",
+            "result": {
+              "status": "passed",
+              "duration": 1370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Tap on SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 665000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User select Yes Option",
+            "result": {
+              "status": "passed",
+              "duration": 37674000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I am on home page of poder website",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I click on module Seguridad",
+            "result": {
+              "status": "passed",
+              "duration": 1779000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "I validate all five card",
+            "result": {
+              "status": "passed",
+              "duration": 8073000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I click on Usuario card",
+            "result": {
+              "status": "passed",
+              "duration": 2329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "I search user by email",
+            "result": {
+              "status": "passed",
+              "duration": 2952000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "I click on edit option",
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "I goto Permisos Actuales tab",
+            "result": {
+              "status": "passed",
+              "duration": 9521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "I click on edit option of Permisos",
+            "result": {
+              "status": "passed",
+              "duration": 3772000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "presential-module;as-a-user-i-search-user-and-goto-permisos-actuales-tab-and-click-on-delete-permisos",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "As a user I search user and goto Permisos Actuales tab and click on delete Permisos",
+        "tags": [
+          {
+            "name": "@delete_permisos_from_permisos_actual_tab",
+            "line": 68
+          },
+          {
+            "name": "@regression",
+            "line": 68
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the URL",
+            "result": {
+              "status": "passed",
+              "duration": 13179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter Username",
+            "result": {
+              "status": "passed",
+              "duration": 5601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Tap on Next button",
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter password of user",
+            "result": {
+              "status": "passed",
+              "duration": 1373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Tap on SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User select Yes Option",
+            "result": {
+              "status": "passed",
+              "duration": 38463000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "I am on home page of poder website",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "I click on module Seguridad",
+            "result": {
+              "status": "passed",
+              "duration": 1701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "I validate all five card",
+            "result": {
+              "status": "passed",
+              "duration": 6092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "I click on Usuario card",
+            "result": {
+              "status": "passed",
+              "duration": 2305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "I search user by email",
+            "result": {
+              "status": "passed",
+              "duration": 3048000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "I click on edit option",
+            "result": {
+              "status": "passed",
+              "duration": 2924000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "I goto Permisos Actuales tab",
+            "result": {
+              "status": "passed",
+              "duration": 3303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "I click on delete option of Permisos",
+            "result": {
+              "status": "passed",
+              "duration": 3676000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "presential-module;as-a-user-i-search-user-and-goto-permisos-actuales-tab-and-search-permisos",
+        "keyword": "Scenario",
+        "line": 80,
+        "name": "As a user I search user and goto Permisos Actuales tab and search Permisos",
+        "tags": [
+          {
+            "name": "@search_permisos_in_permisos_actual_tab",
+            "line": 79
+          },
+          {
+            "name": "@regression",
+            "line": 79
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the URL",
+            "result": {
+              "status": "passed",
+              "duration": 8780000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter Username",
+            "result": {
+              "status": "passed",
+              "duration": 5585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Tap on Next button",
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter password of user",
+            "result": {
+              "status": "passed",
+              "duration": 1695000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Tap on SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User select Yes Option",
+            "result": {
+              "status": "passed",
+              "duration": 39496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "I am on home page of poder website",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "I click on module Seguridad",
+            "result": {
+              "status": "passed",
+              "duration": 1603000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "I validate all five card",
+            "result": {
+              "status": "passed",
+              "duration": 9810000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "I click on Usuario card",
+            "result": {
+              "status": "passed",
+              "duration": 2319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "I search user by email",
+            "result": {
+              "status": "passed",
+              "duration": 2980000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "I click on edit option",
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "I goto Permisos Actuales tab",
+            "result": {
+              "status": "passed",
+              "duration": 5695000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "I search permission by name or sala",
+            "result": {
+              "status": "passed",
+              "duration": 1751000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

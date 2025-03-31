@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Poder Automation",
+    "line": 1,
+    "id": "poder-automation",
+    "tags": [],
+    "uri": "P2_01_SignIn.feature",
+    "elements": [
+      {
+        "id": "poder-automation;login-page",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Login Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the URL",
+            "result": {
+              "status": "passed",
+              "duration": 11345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter Username",
+            "result": {
+              "status": "passed",
+              "duration": 5527000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Tap on Next button",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter password of user",
+            "result": {
+              "status": "passed",
+              "duration": 1428000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Tap on SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User select Yes Option",
+            "result": {
+              "status": "passed",
+              "duration": 52909000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
