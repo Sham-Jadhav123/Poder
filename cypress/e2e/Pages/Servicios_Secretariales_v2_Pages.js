@@ -166,7 +166,12 @@ cy.wait(9000)
 
 cy.get(`[data-index="0"] > .self-center > .btnTramitar`).click();
 
-
+//  cy.on('uncaught:exception', (e) => {
+//                 if (e.message.includes('Cannot read properties of undefined') && e.message.includes('focus')) {
+//                   return false;
+//                 }
+//                 return true;
+//               });
 
   
 // cy.get(`[data-index="0"] > .self-center > .btnTramitar`)

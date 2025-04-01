@@ -83,17 +83,7 @@ class SignIn{
 
   }
 
-  Enter_Invalid_UserName(){
-
-    cy.get(this.microsoft_logo).should('be.visible')
-    //cy.wait(5000);
-    cy.get(this.UserName).type("nshah@poderjudicial.gob.") //"nshah@poderjudicial.gob.do"
-    //cy.wait(5000)
-    cy.get(this.poder_logo).should('be.visible');
-    cy.screenshot("UserName");
-
-
-  }
+ 
 
 }
 export default new SignIn();

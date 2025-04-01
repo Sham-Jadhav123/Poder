@@ -14,10 +14,10 @@
 // // ***********************************************************
 
 // // Import commands.js using ES2015 syntax:
-// import './commands';
-// import 'cypress-file-upload';
-// import 'cypress-xpath'
-// import 'cypress-cucumber-attach-screenshots-to-failed-steps'
+import './commands';
+import 'cypress-file-upload';
+import 'cypress-xpath'
+import 'cypress-cucumber-attach-screenshots-to-failed-steps'
 
 // // afterEach(() => {
 // //   const screenshotsFolder = Cypress.config("screenshotsFolder");
